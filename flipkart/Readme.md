@@ -6,7 +6,7 @@ So with some iteration we can leak around 300 numbers per minute, thus can poten
 I have added two scripts which take 2 different approach to leak, one used random int to generate phone number other iterates through to generate phone number.
 
 ## Installation
-The script runs on both python2 and python3, it requires requests and json as external modules
+The script runs on both python2 and python3, it requires requests as external modules
 ```
-pip install requests json
+pip install requests
 ```
